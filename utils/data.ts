@@ -4,6 +4,7 @@ export type ProjectType = {
   image: string;
   link: string;
   github: string;
+  tools:string;
 };
 
 export const projectData: ProjectType[] = [
@@ -14,6 +15,7 @@ export const projectData: ProjectType[] = [
     image: "/img/project/e-regmaxima.png",
     link: "https://testing.maximagroup.co.id/",
     github: "https://github.com/muhammadricoasmara04/Maxima-Project-Activity",
+    tools:"Framework Laravel, Tailwind CSS, Javascript"
   },
   {
     title: "Presensi Bod 2 FHCI BUMN",
@@ -21,6 +23,15 @@ export const projectData: ProjectType[] = [
     image: "/img/inventori.png",
     link: "https://testing.co.id",
     github: "",
+    tools:"test",
+  },
+  {
+    title: "Manajemen Perpustakaan Museum Bahari",
+    description: "Website ini digunakan untuk keperluan penyimpanan data buku yg terintegrasi pada database",
+    image: "/img/inventori.png",
+    link: "https://testing.co.id",
+    github: "",
+    tools:"test",
   },
   
 ];
