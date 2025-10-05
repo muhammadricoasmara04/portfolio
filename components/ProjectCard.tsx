@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectType> = ({
             <ButtonLink
               href={github}
               label=""
-              icon={<BsGithub className="w-5 h-5" />}
+              icon={<BsGithub className="w-5 h-5"/>}
               target="_blank"
               className="w-10 h-10 flex justify-center ml-2"
             />

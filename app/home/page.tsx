@@ -1,3 +1,4 @@
+import Certificate from "@/components/Certificate";
 import Introduction from "@/components/Introduction";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
@@ -15,6 +16,9 @@ const page = () => {
         </section>
         <section className="w-full">
           <Project/>
+        </section>
+        <section className="w-full">
+          <Certificate/>
         </section>
       </main>
     </div>
