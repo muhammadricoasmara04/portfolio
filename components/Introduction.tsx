@@ -9,7 +9,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Introduction = () => {
   return (
-    <div className="bg-gradient-to-r from-[#0F2027] via-[#203A43] to-[#14142a] w-full h-auto flex flex-col md:flex-row items-center md:items-start px-4 py-8 gap-8">
+    <div className="bg-gradient-to-r from-[#0F2027] via-[#203A43] to-[#14142a] w-full h-auto flex flex-col md:flex-row items-center md:items-start px-4 py-8 gap-8 pt-20">
       <div className="flex flex-col ml-10">
         <div className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-sm overflow-hidden shadow-lg">
           <Image

@@ -1,4 +1,5 @@
 import Certificate from "@/components/Certificate";
+import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
@@ -11,7 +12,7 @@ const page = () => {
         <section className="w-full fixed">
           <Navbar/>
         </section>
-        <section className="w-full mt-16">
+        <section className="w-full">
           <Introduction/>
         </section>
         <section className="w-full">
@@ -19,6 +20,9 @@ const page = () => {
         </section>
         <section className="w-full">
           <Certificate/>
+        </section>
+         <section className="w-full">
+          <Footer/>
         </section>
       </main>
     </div>

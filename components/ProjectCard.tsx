@@ -15,9 +15,10 @@ const ProjectCard: React.FC<ProjectType> = ({
   tools,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden w-full md:w-[300px] hover:scale-105 transition-transform duration-300">
+ <div className="bg-white rounded-lg shadow-md overflow-hidden w-full md:w-[300px] hover:scale-105 transition-transform duration-300 relative z-0">
+
       <div className="relative w-full h-[180px]">
-        <Image src={image} alt={title} layout="fill" objectFit="cover" />
+        <Image src={image} alt={title} fill className="object-cover" />
       </div>
       <div className="p-4 text-gray-800">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -28,7 +29,7 @@ const ProjectCard: React.FC<ProjectType> = ({
             <ButtonLink
               href={github}
               label=""
-              icon={<BsGithub className="w-5 h-5"/>}
+              icon={<BsGithub className="w-5 h-5" />}
               target="_blank"
               className="w-10 h-10 flex justify-center ml-2"
             />

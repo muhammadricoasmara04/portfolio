@@ -14,7 +14,7 @@ export const CertificateData: CertificateType[] = [
     exp: "31 Juli 2028",
   },
   {
-    title: "MAGENTA BUMN",
+    title: "Magang Genarasi Bertalenta (MAGENTA) BUMN",
     image: "/img/certificate/fhci.png",
     link: "https://magentaku.id/?nomor_sertifikat=00158%2FMAGENTA%2FFHCI01%2F9%2F24",
     author: "Forum Human Capital Indonesia",
@@ -48,5 +48,4 @@ export const CertificateData: CertificateType[] = [
     author: "Universitas Gunadarma",
     exp: "-",
   },
-  
 ];
