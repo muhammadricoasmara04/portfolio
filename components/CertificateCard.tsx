@@ -12,14 +12,14 @@ const CertificateCard: React.FC<CertificateType> = ({
  exp,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden w-full md:w-[300px] hover:scale-105 transition-transform duration-300">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden w-full md:w-[280px] hover:scale-105 transition-transform duration-300">
       <div className="relative w-full h-[180px]">
         <Image src={image} alt={title} layout="fill" objectFit="cover" />
       </div>
       <div className="p-4 text-gray-900">
-        <h3 className="text-[20px] font-semibold mb-2 text-center">{title}</h3>
-        <p className="text-sm mb-4">{author}</p>
-        <p className="text-[12px] text-gray-700 ">expired: {exp}</p>
+        <h3 className="text-[16px] font-semibold mb-2 text-center">{title}</h3>
+        <p className="text-[14px] mb-4 text-gray-600">{author}</p>
+        <p className="text-[10px] text-gray-500 ">expired: {exp}</p>
         <div className="flex mt-4">
             {link &&(
                 <ButtonLink

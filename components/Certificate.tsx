@@ -40,12 +40,15 @@ const Certificate = () => {
   return (
     <div className="bg-gradient-to-r from-[#0F2027] via-[#203A43] to-[#14142a] w-full h-auto px-4 py-4">
       <div className="text-center mb-8">
-        <h1 id="certificate" className="text-3xl md:text-4xl font-bold text-white inline-block bg-white/10 border border-white/20 px-6 py-3 rounded-xl backdrop-blur-md shadow">
+        <h1
+          id="certificate"
+          className="text-3xl md:text-4xl font-bold text-white inline-block bg-white/10 border border-white/20 px-6 py-3 rounded-xl backdrop-blur-md shadow"
+        >
           Sertifikat
         </h1>
       </div>
 
-      <div className="slider-container p-6">
+      <div className="slider-container p-4 md:p-6">
         <SlickSlider key={width} {...settings}>
           {CertificateData.map((certificate, index) => (
             <div key={index} className="px-2 md:px-3 lg:px-4">
